@@ -10,7 +10,7 @@ int main ()
       isPrime = 1;
       for (j = 2; j*j<= i ;j++)
       {
-         if (i % j==0);
+         if (i % j == 0)
          {
              isPrime = 0;
              break;
