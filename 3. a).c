@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+ float x, result ;
+
+ printf("Enter the value of X in radians:");
+
+ scanf ("%f", &x);
+
+ result = sin(x);
+
+ printf("sin(%.2f) = %.4f\n",x,result);
+
+ return 0;
+
+}
